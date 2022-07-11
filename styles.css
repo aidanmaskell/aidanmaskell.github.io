@@ -37,11 +37,14 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	
 }
 
 .am {
 	font-family: "Courier New", monospace;
 	font-size: 8rem;
+	position: relative;
+	bottom: 220px;
 }
 
 .welcome {
@@ -85,19 +88,22 @@ footer {
 
 
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
 	.header-1 {
 		flex-direction: column;
 		align-items: center;
 	}
 	
 	.welcome {
-		position: static;
+		top: 0%;
 	
+	}
+	
+	.am {
+		position: static;
 	}
 
 }
 
 
-
-
+*/
