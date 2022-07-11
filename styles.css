@@ -14,16 +14,20 @@ nav {
 	height: 60px;
 	position: sticky;
 	top: 0;
-	text-decoration: none;
-	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 nav a {
 	text-decoration: none;
 	color: black;
+	margin-left: 10px;
+	font-family: Helvetica;
+	font-weight: bold;
 }
 
-.header {
+header {
 	margin: 0;
 }
 
@@ -31,7 +35,23 @@ nav a {
 	background-color: #dad1c5;
 	height: 300px;
 	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
+
+.am {
+	font-family: "Courier New", monospace;
+	font-size: 8rem;
+}
+
+.welcome {
+	font-family: "Courier New", monospace;
+	font-size: 1rem;
+	position: relative;
+	top: 70%;
+	
+}
+
 
 .header-2 {
 	background-image: url("https://images.unsplash.com/photo-1506213463051-7694f7a4b9e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
