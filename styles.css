@@ -27,9 +27,13 @@ nav {
 nav a {
 	text-decoration: none;
 	color: black;
-	margin-left: 10px;
-	font-family: Helvetica;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+}
+
+nav a:nth-child(2) {
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
 h1 {
@@ -88,6 +92,7 @@ main h2 {
 main h3 {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
 }
 
 .me {
