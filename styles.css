@@ -108,7 +108,7 @@ main h3 {
 	background-image: url("https://images.unsplash.com/photo-1617653695386-1d78957d33f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 1000px;
+	height: 1200px;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
@@ -120,33 +120,37 @@ main h3 {
 	color: white;
 	line-height: 1.6;
 	font-size: 4rem;
-	margin-bottom: 8%;
+	margin-bottom: 5%;
 }
 
-.proj-1 {
+.proj {
 	width: 75%;
+	padding-bottom: 5%;	
 }
 
-.proj-1-content {
+.proj h3 {
+	padding-bottom: 2%;	
+}
+
+.proj-content {
 	display: flex;
 	align-items: center;
+	flex-direction: row;
 }
 
-.proj-1-desc {
-
-	
-}
-
-.proj-1-desc h4 {
+.proj-desc h4 {
 	line-height: 1.6;
 	font-size: 1rem;
 	margin-left: 10%;
 }
 
-.proj-1-links {
+.proj-links {
 	display: block;
 	text-align: right;
+	padding-top: 10%;
 }
+
+
 
 
 
