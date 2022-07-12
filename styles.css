@@ -124,19 +124,28 @@ main h3 {
 }
 
 .proj-1 {
-	width: 65%;
+	width: 75%;
 }
 
-.proj-1-desc {
+.proj-1-content {
 	display: flex;
 	align-items: center;
 }
 
+.proj-1-desc {
+
+	
+}
+
 .proj-1-desc h4 {
-	margin-left: 5%;
-	width: 50%;
 	line-height: 1.6;
 	font-size: 1rem;
+	margin-left: 10%;
+}
+
+.proj-1-links {
+	display: block;
+	text-align: right;
 }
 
 
