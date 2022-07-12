@@ -89,12 +89,14 @@ main h2 {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 2%;
+	font-size: 1.7rem;
 }
 
 main h3 {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
+	font-size: 1.1rem;
 }
 
 .me {
@@ -108,9 +110,21 @@ main h3 {
 	background-repeat: no-repeat;
 	height: 1000px;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.portfolio h2 {
+	color: white;
+	line-height: 1.6;
+	font-size: 4rem;
+	margin-bottom: 8%;
+}
+
+.proj-1 {
+	width: 65%;
 }
 
 .proj-1-desc {
@@ -119,7 +133,10 @@ main h3 {
 }
 
 .proj-1-desc h4 {
-	margin: 5%;
+	margin-left: 5%;
+	width: 50%;
+	line-height: 1.6;
+	font-size: 1rem;
 }
 
 
