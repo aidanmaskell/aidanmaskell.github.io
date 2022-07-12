@@ -108,7 +108,7 @@ main h3 {
 	background-image: url("https://images.unsplash.com/photo-1617653695386-1d78957d33f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 1200px;
+	
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
@@ -125,7 +125,7 @@ main h3 {
 
 .proj {
 	width: 75%;
-	padding-bottom: 5%;	
+	padding-bottom: 12%;	
 }
 
 .proj-img {
@@ -207,7 +207,7 @@ footer {
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
 	
 	.welcome {
 		font-size: 0.65rem;
@@ -217,7 +217,24 @@ footer {
 	.am {
 		font-size: 5.5rem;
 	}
+	
+	main {
+		flex-direction: column;
+		height: 100vh;
+	}
+	
+	main h3 {
+		font-size: 0.9rem;
+	}
+	
+	.about {
+		width: 70%;
+	}
+	
 
+	.proj-desc h4 {
+		font-size: 0.75rem;
+	}
 }
 
 
