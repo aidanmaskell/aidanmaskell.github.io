@@ -183,6 +183,7 @@ footer button {
 	border-radius: 8px;
 	font-size: 1.15rem;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .contact-links {
@@ -190,6 +191,17 @@ footer button {
 	justify-content: space-between;
 	font-size: 1.15rem;
 	font-weight: bold;
+}
+
+footer h6 {
+	font-size: 1.15rem;
+	font-weight: bold;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
 }
 
 .platforms :nth-child(2) {
