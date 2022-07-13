@@ -162,7 +162,13 @@ main h3 {
 
 .proj-links {
 	text-align: right;
+	
 }
+
+.proj-links :nth-child(2) {
+	margin-left: 20px;
+	
+}	
 
 footer {
 	background-color: #dad1c5;
@@ -265,8 +271,45 @@ footer a {
 	.proj-desc h4 {
 		font-size: 0.75rem;
 	}
+	
+	footer h1 {
+		font-size: 5.2rem;
+	}
+	
+	footer button {
+		font-size: 1rem;
+	}
+	
+	.contact-links {
+		font-size: 1rem;
+	}
+	
+	footer h6 {
+		font-size: 1rem;
+	}
+	
+	.cv {
+		display: none;
+	}
 }
 
-
-
+@media screen and (max-width: 420px) {
+	footer h1 {
+		font-size: 3rem;
+		margin-right: 10%;
+	}
+	
+	footer button {
+		font-size: 0.8rem;
+	}
+	
+	.contact-links {
+		font-size: 0.8rem;
+	}
+	
+	footer h6 {
+		font-size: 0.8rem;
+	}
+	
+}
 
