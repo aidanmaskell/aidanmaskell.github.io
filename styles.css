@@ -184,8 +184,11 @@ main h3 {
 
 .proj-links :nth-child(2) {
 	margin-left: 20px;
-	
 }	
+
+.proj-links a img {
+	height: 90%;
+}
 
 footer {
 	background-color: #dad1c5;
