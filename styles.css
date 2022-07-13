@@ -125,7 +125,7 @@ main h3 {
 .portfolio h2 {
 	color: white;
 	line-height: 1.6;
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-bottom: 5%;
 }
 
@@ -145,6 +145,7 @@ main h3 {
 
 .proj h3 {
 	padding-bottom: 2%;	
+	font-size: 1.3rem;
 }
 
 .proj-content {
@@ -170,6 +171,15 @@ main h3 {
 
 .proj-links {
 	text-align: right;
+}
+
+.proj-links a {
+    border: 3px solid #7d91ac;
+    border-radius: 8px;
+    padding: 3px 8px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-decoration: none;
 }
 
 .proj-links :nth-child(2) {
@@ -270,6 +280,13 @@ footer a {
 		width: 70%;
 	}
 	
+	.portfolio h2 {
+		font-size: 2.5rem;
+	}
+	
+	.proj h3 {
+		font-size: 1rem;
+	}
 
 	.proj-desc h4 {
 		font-size: 0.75rem;
@@ -303,6 +320,10 @@ footer a {
 		font-size: 0.8rem;
 	}
 	
+	.portfolio h2 {
+		font-size: 2rem;
+	}
+	
 	footer h1 {
 		font-size: 3rem;
 		margin-right: 10%;
@@ -314,10 +335,11 @@ footer a {
 	
 	.contact-links {
 		font-size: 0.8rem;
+		justify-content: center;
 	}
 	
 	footer h6 {
-		font-size: 0.8rem;
+		display: none;
 	}
 	
 	.me img {
@@ -327,16 +349,6 @@ footer a {
 	
 }
 
-@media screen and (max-width: 300px) {
-	footer h6 {
-		display: none;
-	}
-	
-	.contact-links {
-		justify-content: center;
-	}
-	
-}
 	
 	
 	
