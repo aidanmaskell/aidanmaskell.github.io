@@ -13,11 +13,11 @@ body {
 	src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 
-a:hover {
-	color: #7d91ac;
+a :hover {
+ 	color: #7d91ac;
 }
 
-button:hover {
+button :hover {
 	color: #7d91ac;
 }
 
@@ -173,13 +173,15 @@ main h3 {
 	text-align: right;
 }
 
-.proj-links a {
+.proj-links a button {
     border: 3px solid #7d91ac;
     border-radius: 8px;
     padding: 3px 8px;
 	font-family: 'Montserrat', sans-serif;
-	color: white;
+	font-size: 0.9rem;
+	color: black;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .proj-links :nth-child(2) {
@@ -325,6 +327,10 @@ footer a {
 	
 	.portfolio h2 {
 		font-size: 2rem;
+	}
+	
+	.proj-links a button {
+		font-size: 0.7rem;
 	}
 	
 	footer h1 {
