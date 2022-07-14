@@ -59,7 +59,7 @@ h1 {
 
 .am {
 	font-family: "Courier New", monospace;
-	font-size: 8rem;
+	font-size: 20rem;
 	margin: 0px;
 }
 
@@ -89,6 +89,8 @@ main {
 .about {
 	margin: 5%;
 	width: 45%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 main h2 {
@@ -133,15 +135,15 @@ main h3 {
 }
 
 .proj-img {
-	width: 30%;
 	height: 200px;
+	margin-bottom: 5%;
 }
 
 .proj-img img {
 	width: 100%;
 }
 
-.proj h3 {
+.proj {
 	padding-bottom: 2%;	
 	font-size: 1.3rem;
 }
@@ -172,7 +174,7 @@ main h3 {
 }
 
 .proj-links a {
-	background-color: white;
+	background-color: #FFFFFF;
     border: 3px solid #7d91ac;
     border-radius: 8px;
     padding: 8px;
@@ -185,6 +187,7 @@ main h3 {
 
 .proj-links a img {
 	vertical-align: bottom;
+	margin-left: 5px;
 }
 
 .proj-links :nth-child(2) {
@@ -204,7 +207,7 @@ footer h1 {
 }
 
 .say-hello {
-	background-color: white;
+	background-color: #FFFFFF;
 	margin-left: 1%;
 	padding: 5px;
 	border: 3px solid #7d91ac;
@@ -233,7 +236,7 @@ footer h6 {
 
 footer a {
 	text-decoration: none;
-	color: black;
+	color: #000000;
 	cursor: pointer;
 }
 
@@ -261,7 +264,16 @@ footer a {
 	}
 	
 	.am {
-		font-size: 7.5rem;
+		font-size: 17rem;
+	}
+	
+	main {
+		flex-direction: column;
+		height: 100vh;
+	}
+	
+	.about {
+		width: 70%;
 	}
 
 }
@@ -273,20 +285,11 @@ footer a {
 	}
 	
 	.am {
-		font-size: 5.5rem;
+		font-size: 12rem;
 	}
 	
-	main {
+	.proj-content {
 		flex-direction: column;
-		height: 100vh;
-	}
-	
-	main h3 {
-		font-size: 0.9rem;
-	}
-	
-	.about {
-		width: 70%;
 	}
 	
 	.portfolio h2 {
@@ -294,11 +297,24 @@ footer a {
 	}
 	
 	.proj h3 {
-		font-size: 1rem;
+		font-size: 1.15rem;
+		text-align: center;
+	}
+	
+	.proj-desc {
+		width: 100%;
 	}
 
 	.proj-desc h4 {
-		font-size: 0.75rem;
+		font-size: 0.8rem;
+	}
+	
+	.proj-links {
+		margin-bottom: 100px;
+	}
+	
+	.proj-links a img {
+		margin-left: 1px
 	}
 	
 	footer h1 {
@@ -329,16 +345,16 @@ footer a {
 		font-size: 0.8rem;
 	}
 	
-	.portfolio h2 {
-		font-size: 2rem;
-	}
-	
-	.proj h3 {
-		font-size: 0.9rem;
+	main h2 {
+		font-size: 1.5rem;
 	}
 
-	.proj-desc h4 {
-		font-size: 0.6rem;
+	main h3 {
+		font-size: 0.9rem;
+	}
+	
+	.portfolio h2 {
+		font-size: 2rem;
 	}
 	
 	.proj-links a {
