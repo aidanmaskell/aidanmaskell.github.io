@@ -17,10 +17,6 @@ a :hover {
  	color: #7d91ac;
 }
 
-button :hover {
-	color: #7d91ac;
-}
-
 nav {
 	background-color: #dad1c5;
 	margin: 0;
@@ -38,6 +34,9 @@ nav a {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1rem;
+}
+nav :hover {
+	color: #7d91ac;
 }
 
 nav a:nth-child(2) {
@@ -173,10 +172,11 @@ main h3 {
 	text-align: right;
 }
 
-.proj-links a button {
+.proj-links a {
+	background-color: white;
     border: 3px solid #7d91ac;
     border-radius: 8px;
-    padding: 3px 8px;
+    padding: 8px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9rem;
 	color: black;
@@ -184,13 +184,13 @@ main h3 {
 	cursor: pointer;
 }
 
+.proj-links a img {
+	vertical-align: bottom;
+}
+
 .proj-links :nth-child(2) {
 	margin-left: 20px;
 }	
-
-.proj-links a img {
-	height: 90%;
-}
 
 footer {
 	background-color: #dad1c5;
@@ -204,8 +204,8 @@ footer h1 {
 	padding-bottom: 50px;
 }
 
-footer button {
-	margin-bottom: 100px;
+.say-hello {
+	background-color: white;
 	margin-left: 1%;
 	padding: 5px;
 	border: 3px solid #7d91ac;
@@ -220,6 +220,11 @@ footer button {
 	justify-content: space-between;
 	font-size: 1.15rem;
 	font-weight: bold;
+	margin-top: 100px;
+}
+
+.contact-links :hover {
+	color: #7d91ac;
 }
 
 footer h6 {
@@ -301,7 +306,7 @@ footer a {
 		font-size: 5.2rem;
 	}
 	
-	footer button {
+	.say-hello {
 		font-size: 1rem;
 	}
 	
@@ -329,8 +334,22 @@ footer a {
 		font-size: 2rem;
 	}
 	
-	.proj-links a button {
-		font-size: 0.7rem;
+	.proj h3 {
+		font-size: 0.9rem;
+	}
+
+	.proj-desc h4 {
+		font-size: 0.6rem;
+	}
+	
+	.proj-links a {
+		font-size: 0.65rem;
+		padding: 5px;
+	}
+	
+	.proj-links a img {
+		height: 15px;
+		width: 15px;
 	}
 	
 	footer h1 {
@@ -338,7 +357,7 @@ footer a {
 		margin-right: 10%;
 	}
 	
-	footer button {
+	.say-hello {
 		font-size: 0.8rem;
 	}
 	
@@ -358,7 +377,16 @@ footer a {
 	
 }
 
+@media screen and (max-width: 326px) {
+	.proj-links a {
+		font-size: 0.45rem;
+	}
 	
+	.proj-links a img {
+		height: 10px;
+		width: 10px;
+	}
+}
 	
 	
 	
