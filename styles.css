@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
 }
 
@@ -51,7 +50,6 @@ h1 {
 .header-1 {
 	background-color: #dad1c5;
 	height: 50vh;
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,7 +58,6 @@ h1 {
 .am {
 	font-family: "Courier New", monospace;
 	font-size: 20rem;
-	margin: 0px;
 }
 
 .welcome {
@@ -144,6 +141,10 @@ main h3 {
 	padding-bottom: 12%;	
 }
 
+.proj h3 {
+	font-size: 1.5rem;
+}
+
 .proj-img {
 	height: 200px;
 	margin-bottom: 5%;
@@ -176,7 +177,6 @@ main h3 {
 	line-height: 1.6;
 	font-size: 1rem;
 	margin-left: 18px;
-	text-align: left;
 }
 
 .proj-links {
