@@ -181,13 +181,10 @@ main h3 {
 }
 
 .proj-links a {
-	background-color: #FFFFFF;
-    border: 3px solid #7d91ac;
-    border-radius: 8px;
     padding: 8px;
 	font-family: 'Prata', serif;
 	font-size: 0.9rem;
-	color: black;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -227,6 +224,7 @@ footer h1 {
 .contact-links {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 	font-size: 1.15rem;
 	font-weight: bold;
 	margin-top: 100px;
