@@ -155,7 +155,7 @@ main h3 {
 .proj-content {
 	display: flex;
 	align-items: center;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .proj-desc {
