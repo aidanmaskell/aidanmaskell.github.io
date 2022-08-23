@@ -18,12 +18,8 @@ a :hover {
 
 nav {
   background-color: #dad1c5;
-  height: 60px;
   position: sticky;
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 nav:hover {
   color: #7d91ac;
@@ -34,69 +30,45 @@ nav a {
   font-weight: bold;
   font-size: 1.1rem;
 }
-nav a:nth-child(2) {
-  margin-left: 35px;
-  margin-right: 35px;
-}
 
 h1 {
   margin: 0;
 }
 
+.am {
+  font-size: 14rem;
+}
+
 .header-1 {
   background-color: #dad1c5;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.am {
   font-family: "Courier New", monospace;
-  font-size: 20rem;
-}
-
-.welcome {
-  font-family: "Courier New", monospace;
-  padding-left: 3%;
-  padding-right: 3%;
 }
 
 .welcome h1 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
 }
 
 .welcome h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .header-2 {
   background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   height: 600px;
 }
 
 main {
   background-color: #000000;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .about {
-  margin: 5%;
-  width: 45%;
   color: #FFFFFF;
 }
 
 main h2 {
   color: #FFFFFF;
-  margin-bottom: 2%;
   font-size: 1.7rem;
 }
 
@@ -104,10 +76,6 @@ main h3 {
   color: #FFFFFF;
   line-height: 1.6;
   font-size: 1.1rem;
-}
-
-.me {
-  margin: 5%;
 }
 
 .me img {
@@ -252,130 +220,6 @@ footer a {
   border: 3px solid #7d91ac;
   border-radius: 8px;
   padding: 3px 8px;
-}
-
-@media screen and (max-width: 1000px) {
-  .header-1 {
-    flex-direction: column;
-  }
-  .welcome {
-    font-size: 0.9rem;
-  }
-  .am {
-    font-size: 17rem;
-  }
-  main {
-    flex-direction: column;
-    height: 100vh;
-  }
-  .about {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .welcome h1 {
-    font-size: 1.3rem;
-  }
-  .welcome h2 {
-    font-size: 0.9rem;
-  }
-  .am {
-    font-size: 12rem;
-  }
-  .proj-content {
-    flex-direction: column;
-  }
-  .portfolio h2 {
-    font-size: 2.5rem;
-  }
-  .proj h3 {
-    font-size: 1.15rem;
-    text-align: center;
-  }
-  .proj-desc {
-    width: 100%;
-  }
-  .proj-desc h4 {
-    font-size: 0.8rem;
-  }
-  .proj-links {
-    margin-bottom: 100px;
-  }
-  .proj-links a img {
-    margin-left: 1px;
-  }
-  footer h1 {
-    font-size: 5.2rem;
-  }
-  .say-hello {
-    font-size: 1rem;
-  }
-  .contact-links {
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-  footer h6 {
-    font-size: 1rem;
-    margin-left: 10px;
-  }
-  .cv {
-    display: none;
-  }
-}
-@media screen and (max-width: 420px) {
-  nav a {
-    font-size: 0.8rem;
-  }
-  .welcome h1 {
-    font-size: 1.1rem;
-  }
-  .welcome h2 {
-    font-size: 0.7rem;
-  }
-  main h2 {
-    font-size: 1.5rem;
-  }
-  main h3 {
-    font-size: 0.9rem;
-  }
-  .portfolio h2 {
-    font-size: 2rem;
-  }
-  .proj-links a {
-    font-size: 0.65rem;
-    padding: 5px;
-  }
-  .proj-links a img {
-    height: 15px;
-    width: 15px;
-  }
-  footer h1 {
-    font-size: 3rem;
-    margin-right: 10%;
-  }
-  .say-hello {
-    font-size: 0.8rem;
-  }
-  .contact-links {
-    font-size: 0.8rem;
-    justify-content: center;
-  }
-  footer h6 {
-    display: none;
-  }
-  .me img {
-    height: 200px;
-    width: 200px;
-  }
-}
-@media screen and (max-width: 326px) {
-  .proj-links a {
-    font-size: 0.45rem;
-  }
-  .proj-links a img {
-    height: 10px;
-    width: 10px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
