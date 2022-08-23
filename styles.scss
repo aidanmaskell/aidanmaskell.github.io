@@ -25,17 +25,21 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	&:hover {
+		color: #7d91ac;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		font-weight: bold;
+		font-size: 1.1rem;
+	}
 }
 
-nav a {
-	text-decoration: none;
-	color: #000000;
-	font-weight: bold;
-	font-size: 1.1rem;
-}
-nav :hover {
-	color: #7d91ac;
-}
+
+
 
 nav a:nth-child(2) {
 	margin-left: 35px;
@@ -127,7 +131,8 @@ main h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: 'DM sans', sans-serif
+	font-family: 'DM sans', sans-serif;
+	padding: 40px 0; 
 }
 
 .portfolio h2 {
