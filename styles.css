@@ -108,6 +108,7 @@ main h3 {
 .proj-img img {
   height: 100%;
   width: 100%;
+  border-radius: 20px;
 }
 
 .proj-desc h4 {
@@ -121,11 +122,13 @@ main h3 {
 }
 
 .proj-links a {
-  padding: 8px;
   font-size: 0.9rem;
   color: white;
   text-decoration: none;
   cursor: pointer;
+  border: 3px solid #7d91ac;
+  border-radius: 8px;
+  padding: 3px 8px;
 }
 
 .proj-links a img {
@@ -142,10 +145,7 @@ footer {
 }
 
 footer h1 {
-  font-size: 8rem;
-  padding-top: 100px;
-  padding-left: 1%;
-  padding-bottom: 50px;
+  font-size: 6rem;
   font-family: "Prata", serif;
 }
 
@@ -161,14 +161,8 @@ footer h1 {
 }
 
 .contact-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
   font-size: 1.15rem;
   font-weight: bold;
-  margin-top: 100px;
-  padding-left: 1%;
-  padding-right: 1%;
 }
 
 .contact-links :hover {
