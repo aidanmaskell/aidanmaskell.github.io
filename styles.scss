@@ -154,8 +154,14 @@ footer {
 }
 
 footer h1 {
-	font-size: 6rem;
+	font-size: 5rem;
 	font-family: 'Prata', serif;
+}
+
+@media only screen and (max-width: 600px)  {
+	footer h1 {
+		font-size: 4rem;
+	}
 }
 
 .say-hello {
@@ -172,10 +178,6 @@ footer h1 {
 .contact-links {
 	font-size: 1.15rem;
 	font-weight: bold;
-}
-
-.contact-links :hover {
-	color: #7d91ac;
 }
 
 footer h6 {
@@ -198,4 +200,7 @@ footer a {
     border: 3px solid #7d91ac;
     border-radius: 8px;
     padding: 3px 8px;
+	&:hover {
+		color: #7d91ac;
+	}
 }
