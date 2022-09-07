@@ -3,117 +3,142 @@
 <head>
 	<title>Aidan Maskell</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="normalize.css" type="text/css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<link href="styles.css" type="text/css" rel="stylesheet" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 </head>
-<body>
-	<nav>
-		<div>
-			<a href="#about">About</a>
-			<a href="#portfolio">Portfolio</a>
-			<a href="#contact">Contact</a>
-		</div>
-	</nav> 
-	<header>
-		<section class="header-1">
-			<div class="am">
-				<h5>am</h5>
-			</div>	
-			<div class="welcome">
-				<h1>Welcome to Aidan Maskell's Portfolio</h1>
-				<h2>I am a Software Developer from the South-West</h2>
-			</div>		
-		</section>
-		<section class="header-2"> 
-		</section>
-	</header>
-	<main id="about">
-		<article class="about">
-			<h2>ABOUT</h2>
-			<h3>Hi, I'm Aidan. I have been coding since late 2021 and specialise PHP, JavaScript, Python, HTML and CSS.
-				I am currently a student in IO Academy's Full Stack Track but my background is in analytical chemistry.</h3>
-		</article>
-		<div class="me"> 
-			<img src="images/Me-1.jpg" alt="Me" height=290 width= 290 />
-		</div>
-	</main>	
-	<section class="portfolio" id="portfolio"> 
-		<h2>PORTFOLIO</h2>
-		<div class="proj"> 
-			<h3>COLLECTION APP</h3>
-			<div class="proj-content">
-				<div class="proj-img">
-					<img src="images/chillis-screenshot.png" alt="chilli-project">
+<body> 
+	<div class="container-fluid">
+		<nav class="row">
+			<div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 py-3 d-flex justify-content-between">
+				<a href="#about">About</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</nav> 
+		<header>
+			<section class="header-1 row">
+					<div class="am col">
+						<h1 class="am fw-bold text-center">am</h1>
+					</div>
+					<div class="welcome col-12 px-3 text-center pb-4">
+						<h1>Welcome to Aidan Maskell's Portfolio</h1>
+						<h2>I am a Software Developer from the South-West</h2>
+					</div>	
+			</section>
+			<section class="row header-2"> 
+			</section>
+		</header>
+		<main id="about" class="row d-flex align-items-center">
+			<article class="about col-12 col-lg-6 text-center px-5">
+				<h2 class="py-3">ABOUT</h2>
+				<h3 class="px-3">Hi, I'm Aidan. I have been coding since late 2021 and specialise PHP, JavaScript, Python, HTML and CSS.
+					I am currently a student in IO Academy's Full Stack Track but my background is in analytical chemistry.</h3>
+			</article>
+			<div class="me col-12 col-lg-6 text-center py-5"> 
+				<img src="images/Me-1.jpg" alt="Me" height=290 width= 290 />
+			</div>
+		</main>	
+		<section class="portfolio row" id="portfolio"> 
+			<div class="col-12 text-center py-4">
+				<h2>PORTFOLIO</h2>
+			</div>
+			<div class="col-12 proj"> 
+				<div class="row">
+					<div class="col-12 pb-2 pt-3 col-lg-6 offset-lg-3">
+						<h3>EMAIL CLIENT</h3>
+					</div>
 				</div>
-				<div class="proj-desc">
-					<h4>During this project I set out to make a colletion of chillis using PHP, HTML and JavaScript. They are stored within a database and displayed on the front-end in a table. 
-						There is functionality to add to, edit and delete items from the database. All user input is validated and sanitised before querying the database. 
-					</h4>
-					<div class="proj-links">
-						<a href="https://github.com/aidanmaskell/collection-app" target="_blank">GITHUB</a>
-						<a href="https://2022-aidanm.dev.io-academy.uk/collection-app/" target="_blank">LIVE</a>
+				<div class="proj-content row">
+					<div class="proj-img col-12 pb-5 pt-3 col-lg-6 offset-lg-3">
+						<img src="images/email-screenshot.jpg" alt="email-project">
+					</div>
+					<div class="proj-desc col-12 p-3 col-lg-6 offset-lg-3">
+						<h4>
+							Working as part of a 7-person sprint using Agile scrum methodology, we used React JS to consume an email API. 
+							Sass and Bootstrap were implemented to create the UI we were aiming for. 
+							The app has functionality to open and display emails, change their 'read' status on the front and back-end, send new emails to the API, and more.  
+						</h4>
+					</div>
+					<div class="proj-links col-12 p-3 col-lg-6 offset-lg-3 pb-5">
+						<a href="https://github.com/iO-Academy/2022-jul-seamail" target="_blank">GITHUB</a>
+						<a href="" target="_blank">LIVE</a>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="proj"> 
-			<h3>QUIZ GAME</h3>
-			<div class="proj-content">
-				<div class="proj-img">
-					<img src="images/quotlefish.jpg" alt="quiz-project">
+			<div class="col-12 proj"> 
+				<div class="row">
+					<div class="col-12 pb-2 pt-3 col-lg-6 offset-lg-3">
+						<h3>QUIZ GAME</h3>
+					</div>
 				</div>
-				<div class="proj-desc">
-					<h4>Working as part of a 7 person sprint, we created a movie guessing game using JavaScript, HTML and CSS.
-						The application has functionality to keep score, give hints, run a timer to mediate the game length and continue reloading questions until the game has ended. 
-					</h4>
-					<div class="proj-links">
+				<div class="proj-content row">
+					<div class="proj-img col-12 pb-5 pt-3 col-lg-6 offset-lg-3">
+						<img src="images/quotlefish.jpg" alt="quiz-project">
+					</div>
+					<div class="proj-desc col-12 p-3 col-lg-6 offset-lg-3">
+						<h4>Working as part of a 7 person sprint, we created a movie guessing game using JavaScript, HTML and CSS.
+							The application has functionality to keep score, give hints, run a timer to mediate the game length and continue reloading questions until the game has ended. 
+						</h4>
+					</div>
+					<div class="proj-links col-12 p-3 col-lg-6 offset-lg-3 pb-5">
 						<a href="https://github.com/iO-Academy/2022-jul-guess-the-film" target="_blank">GITHUB</a>
 						<a href="https://dev.io-academy.uk/projects/2022-july/quotlefish/" target="_blank">LIVE</a>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="proj"> 
-			<h3>PROJECT TITLE</h3>
-			<div class="proj-content">
-				<div class="proj-img">
-					<img src="https://via.placeholder.com/350x200" alt="project">
+			<div class="col-12 proj"> 
+				<div class="row">
+					<div class="col-12 pb-2 pt-3 col-lg-6 offset-lg-3">
+						<h3>COLLECTION APP</h3>
+					</div>
 				</div>
-				<div class="proj-desc">
-					<h4>Description of project with extra details will be filled in within this sectionDescription of project with extra details will be filled in within this section</h4>
-					<div class="proj-links">
-						<a href="https://github.com/iO-Academy/2022-jul-guess-the-film" target="_blank">GITHUB</a>
+				<div class="proj-content row">
+					<div class="proj-img col-12 pb-5 pt-3 col-lg-6 offset-lg-3">
+						<img src="images/chillis-screenshot.png" alt="chilli-project">
+					</div>
+					<div class="proj-desc col-12 p-3 col-lg-6 offset-lg-3">
+						<h4>During this project I set out to make a colletion of chillis using PHP, HTML and JavaScript. They are stored within a database and displayed on the front-end in a table. 
+							There is functionality to add to, edit and delete items from the database. All user input is validated and sanitised before querying the database. 
+						</h4>
+					</div>
+					<div class="proj-links col-12 p-3 col-lg-6 offset-lg-3 pb-5">
+						<a href="https://github.com/aidanmaskell/collection-app" target="_blank">GITHUB</a>
 						<a href="https://2022-aidanm.dev.io-academy.uk/collection-app/" target="_blank">LIVE</a>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>	
-	<footer id="contact">
-		<section>
-			<h1>LET'S CONNECT</h1>
-			<a class="say-hello" href="#" target="_blank">Say Hello  	&#128075;</a>
-		</section>
-		<section>
-			<div class="contact-links">
-				<div class="cr">
-					<h6>&#169; Copyright 2022</h6>
-				</div>
-				<div class="platforms">
-					<a href="#"><img src="images/email.png" alt="email logo" height= 70 width= 70></a>
-					<a href="#">LinkedIn</a>
-					<a href="#"><img src="images/github.png" alt="github logo" height= 70 width= 70></a>
-				</div>
-				<div class="cv">
-					<a href="#">Request CV</a>
-				</div>
-			</div>
-		</section>
-	</footer>
-	
+			</section>	
+			<footer class="row" id="contact">
+				<section class="col-12">
+					<div class="row">
+						<h1 class="col-12 pt-5 fs-5rem fs-md-6rem">LET'S CONNECT</h1>
+					</div>
+					<div class="row py-3 mb-4">
+						<div class="col">
+							<a class="say-hello" href="#" target="_blank">Say Hello  	&#128075;</a>
+						</div>
+					</div>
+				</section>
+				<section class="col-12">
+					<div class="contact-links row">
+						<div class="cr col-md-3 d-none d-md-flex align-items-end">
+							<h6>&#169; Copyright 2022</h6>
+						</div>
+						<div class="platforms col-12 col-md-6 d-flex justify-content-center">
+							<a href="#"><img src="images/linkedin.png" alt="linkedin logo" height= 70 width= 70></a>
+							<a href="#"><img src="images/email.png" alt="email logo" height= 70 width= 70></a>
+							<a href="#"><img src="images/github.png" alt="github logo" height= 70 width= 70></a>
+						</div>
+						<div class="col-md-3 d-none d-md-flex justify-content-end align-items-end">
+							<a class="cv" href="#">Request CV</a>
+						</div>
+					</div>
+				</section>
+			</footer>
+	</div>
 </body>
 
 </html>
