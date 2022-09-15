@@ -13,7 +13,7 @@ body {
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 a :hover {
-  color: #7d91ac;
+  color: #994a99;
 }
 
 nav {
@@ -89,7 +89,7 @@ main h3 {
   background-repeat: no-repeat;
   color: #FFFFFF;
   font-family: "DM sans", sans-serif;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .portfolio h2 {
