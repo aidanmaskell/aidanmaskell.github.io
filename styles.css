@@ -133,11 +133,6 @@ main h3 {
   padding: 3px 8px;
 }
 
-.proj-links a img {
-  vertical-align: bottom;
-  margin-left: 5px;
-}
-
 .proj-links :nth-child(2) {
   margin-left: 20px;
 }
