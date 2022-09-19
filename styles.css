@@ -202,4 +202,27 @@ footer a {
   color: #7d91ac;
 }
 
-/*# sourceMappingURL=styles.css.map */
+@media only screen and (max-width: 290px) {
+
+  nav a {
+   font-size: 0.9rem;
+   margin: 2px;
+ }
+
+  .am {
+    font-size: 12rem;
+  }
+
+  .portfolio h2 {
+    font-size: 2.5rem;
+  }
+
+  footer h1 {
+    font-size: 3rem;
+  }
+
+  .me img {
+    height: 200px;
+    width: 200px;
+  }
+}
