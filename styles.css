@@ -12,23 +12,23 @@ body {
   font-family: "Montserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
-a :hover {
-  color: #994a99;
-}
+
 
 nav {
   background-color: #dad1c5;
   position: sticky;
   top: 0;
 }
-nav:hover {
-  color: #7d91ac;
-}
+
 nav a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+nav a:hover, nav a:visited, nav a:active {
+  color: inherit;
 }
 
 h1 {
