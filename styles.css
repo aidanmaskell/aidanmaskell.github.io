@@ -90,6 +90,7 @@ main h3 {
   color: #FFFFFF;
   font-family: "DM sans", sans-serif;
   padding-top: 50px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .portfolio h2 {
