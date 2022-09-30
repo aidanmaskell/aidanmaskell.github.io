@@ -163,6 +163,10 @@ footer h1 {
   cursor: pointer;
 }
 
+.say-hello:hover, .say-hello:visited, .say-hello:active {
+  color: inherit;
+}
+
 .contact-links {
   font-size: 1.15rem;
   font-weight: bold;
