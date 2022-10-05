@@ -18,6 +18,7 @@ nav {
   background-color: #dad1c5;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .nava {
@@ -26,7 +27,8 @@ nav {
   font-weight: bold;
   font-size: 1.1rem;
   position: relative;
-  bottom: 200px;
+  bottom: 50px;
+  opacity: 0;
 }
 
 nav a:hover, nav a:visited, nav a:active {
@@ -40,7 +42,8 @@ h1 {
 .am {
   font-size: 14rem;
   position: relative;
-  right: 1000px; 
+  right: 200px; 
+  opacity: 0;
 }
 
 .header-1 {
@@ -50,7 +53,8 @@ h1 {
 
 .welcome {
   position: relative;
-  left: 1500px;
+  left: 200px;
+  opacity: 0;
 }
 
 .welcome h1 {
@@ -90,7 +94,6 @@ main h3 {
 
 .me {
   position: relative;
-  right: 200px;
 }
 
 .me img {
