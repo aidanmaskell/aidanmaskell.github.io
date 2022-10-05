@@ -18,13 +18,17 @@ nav {
   background-color: #dad1c5;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
-nav a {
+.nava {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
   font-size: 1.1rem;
+  position: relative;
+  bottom: 50px;
+  opacity: 0;
 }
 
 nav a:hover, nav a:visited, nav a:active {
@@ -37,11 +41,20 @@ h1 {
 
 .am {
   font-size: 14rem;
+  position: relative;
+  right: 200px; 
+  opacity: 0;
 }
 
 .header-1 {
   background-color: #dad1c5;
   font-family: "Courier New", monospace;
+}
+
+.welcome {
+  position: relative;
+  left: 200px;
+  opacity: 0;
 }
 
 .welcome h1 {
@@ -77,6 +90,10 @@ main h3 {
   color: #FFFFFF;
   line-height: 1.6;
   font-size: 1.1rem;
+}
+
+.me {
+  position: relative;
 }
 
 .me img {
