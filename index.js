@@ -1,41 +1,60 @@
+gsap.registerPlugin('ScrollTrigger');
+
 gsap.to(".am", { // selector text, Array, or object
     x: 200, // any properties (not limited to CSS)
     opacity: 1,
-    duration: 1, // seconds
+    duration: 1.5, // seconds
 });
 
 gsap.to(".welcome", { // selector text, Array, or object
     x: -200, // any properties (not limited to CSS)
     opacity: 1,
-    duration: 1, // seconds
+    duration: 1.5, // seconds
 });
 
 gsap.to(".nava", { // selector text, Array, or object
-    y: 50, // any properties (not limited to CSS)
+    y: 30, // any properties (not limited to CSS)
     opacity: 1,
-    duration: 1, // seconds
+    duration: 2, // seconds
 });
 
-// gsap.to(".me", { // selector text, Array, or object
-//     scrollTrigger: {
-//         // x: 200, // any properties (not limited to CSS)
-//         // duration: 5, // seconds
-//         trigger: ".me", // selector or element
-//         start: "top center",  // [trigger] [scroller] positions
-//         end: "0 80%", // [trigger] [scroller] positions
-//         // or relative amount: "+=500"
-//     }
-// });
+gsap.to(".me", { // selector text, Array, or object
+    x: -200, // any properties (not limited to CSS)
+    opacity: 1,
+    duration: 1, 
+    scrollTrigger: {
+        trigger: ".me"
+    }
+});
 
-// let tween = gsap.to(".class", {x:100}),
-//     st = ScrollTrigger.create({
-//         trigger: ".trigger",
-//         start: "top center",
-//         end: "+=500",
-//         animation: tween
-//       });
+gsap.to(".about", { // selector text, Array, or object
+    x: 200, // any properties (not limited to CSS)
+    opacity: 1,
+    duration: 1, 
+    scrollTrigger: {
+        trigger: ".about"
+    }
+});
 
-// gsap.to(".me.inView", { // selector text, Array, or object
-//         x: 200, // any properties (not limited to CSS)
-//         duration: 5, // seconds
-// })
+
+document.querySelectorAll('.proj-top').forEach(projTop => {
+    gsap.to(projTop, { // selector text, Array, or object
+        x: -100, // any properties (not limited to CSS)
+        opacity: 1,
+        duration: 1, 
+        scrollTrigger: {
+            trigger: projTop
+        }
+    })
+})
+
+document.querySelectorAll('.proj-bottom').forEach(projBot => {
+    gsap.to(projBot, { // selector text, Array, or object
+        x: 100, // any properties (not limited to CSS)
+        opacity: 1,
+        duration: 1, 
+        scrollTrigger: {
+            trigger: projBot
+        }
+    })
+})

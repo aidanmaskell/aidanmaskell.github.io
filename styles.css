@@ -13,7 +13,6 @@ body {
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 
-
 nav {
   background-color: #dad1c5;
   position: sticky;
@@ -27,7 +26,7 @@ nav {
   font-weight: bold;
   font-size: 1.1rem;
   position: relative;
-  bottom: 50px;
+  bottom: 30px;
   opacity: 0;
 }
 
@@ -79,6 +78,9 @@ main {
 .about {
   color: #FFFFFF;
   margin-top: 50px;
+  position: relative;
+  right: 200px;
+  opacity: 0;
 }
 
 main h2 {
@@ -94,6 +96,8 @@ main h3 {
 
 .me {
   position: relative;
+  left: 200px;
+  opacity: 0;
 }
 
 .me img {
@@ -118,6 +122,18 @@ main h3 {
 
 .proj {
   font-size: 1.3rem;
+}
+
+.proj-top {
+  opacity: 0;
+  position: relative;
+  left: 100px;
+}
+
+.proj-bottom {
+  opacity: 0;
+  position: relative;
+  right: 100px;
 }
 
 .proj h3 {
