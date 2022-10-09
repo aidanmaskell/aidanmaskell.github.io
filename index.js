@@ -46,7 +46,7 @@ document.querySelectorAll('.proj-top').forEach(projTop => {
         duration: 1, 
         scrollTrigger: {
             trigger: projTop,
-            start: "top center",  // [trigger] [scroller] positions
+            start: "top 80%",  // [trigger] [scroller] positions
         }
     })
 })
@@ -58,7 +58,7 @@ document.querySelectorAll('.proj-bottom').forEach(projBot => {
         duration: 1, 
         scrollTrigger: {
             trigger: projBot,
-            start: "top center",  // [trigger] [scroller] positions
+            start: "top 80%",  // [trigger] [scroller] positions
         }
     })
 })
